@@ -12,6 +12,12 @@ User Name is : <b> ${userName}</b>
 
 <portlet:actionURL name="addName" var="addNameUrl"></portlet:actionURL>
 
-<&nbsp;br>
+<br>
 
 <a href="${addNameUrl}">Add Name</a>
+	
+<form action="${addNameUrl}" method="post">
+<input name="userName" type="text" /><&nbsp;br>
+<input type="submit" />
+</form>	
+	
