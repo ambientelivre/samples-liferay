@@ -45,7 +45,7 @@ public class CustomMVCPortlet extends MVCPortlet {
 	//Default Render Method.
 	public void doView(RenderRequest renderRequest,
 			RenderResponse renderResponse) throws IOException, PortletException {
-		renderRequest.setAttribute("name", "nilang");
+		renderRequest.setAttribute("userName", "nilang");
 		super.doView(renderRequest, renderResponse);
 	}
 	
