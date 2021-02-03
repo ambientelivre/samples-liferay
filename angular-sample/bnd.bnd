@@ -1,0 +1,5 @@
+Bundle-Name: angular-sample
+Bundle-SymbolicName: br.com.ambientelivre.angular
+Bundle-Version: 1.0.0
+Export-Package: br.com.ambientelivre.angular.constants
+Web-ContextPath: /angular-sample
