@@ -17,7 +17,6 @@ User Name is : <b> ${userName}</b>
 <a href="${addNameUrl}">Add Name</a>
 	
 <form action="${addNameUrl}" method="post">
-<input name="userName" type="text" /><&nbsp;br>
+<input name="<portlet:namespace/>userName" type="text" /><&nbsp;br>
 <input type="submit" />
 </form>	
-	
