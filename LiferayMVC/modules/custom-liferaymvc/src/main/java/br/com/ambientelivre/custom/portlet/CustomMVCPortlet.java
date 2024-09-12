@@ -20,14 +20,10 @@ import javax.portlet.RenderResponse;
 
 import org.osgi.service.component.annotations.Component;
 
-
-
 /**
  * @author ambientelivre
  */
-@Component(
-	immediate = true,
-	property = {
+@Component(immediate = true, property = {
 		"com.liferay.portlet.display-category=category.sample",
 		"com.liferay.portlet.header-portlet-css=/css/main.css",
 		"com.liferay.portlet.instanceable=true",
@@ -37,24 +33,21 @@ import org.osgi.service.component.annotations.Component;
 		"javax.portlet.name=" + CustomMVCPortletKeys.CUSTOMMVC,
 		"javax.portlet.resource-bundle=content.Language",
 		"javax.portlet.security-role-ref=power-user,user"
-	},
-	service = Portlet.class
-)
+}, service = Portlet.class)
 public class CustomMVCPortlet extends MVCPortlet {
-		
-	//Default Render Method.
+
+	// Default Render Method.
 	public void doView(RenderRequest renderRequest,
 			RenderResponse renderResponse) throws IOException, PortletException {
 		renderRequest.setAttribute("userName", "nilang");
 		super.doView(renderRequest, renderResponse);
 	}
-	
-	@ProcessAction(name="addName")
+
+	@ProcessAction(name = "addName")
 	public void addName(ActionRequest actionRequest,
-			ActionResponse actionResponse) throws IOException, PortletException, PortalException, SystemException{
+			ActionResponse actionResponse) throws IOException, PortletException, PortalException, SystemException {
 		String userName = ParamUtil.get(actionRequest, "userName", StringPool.BLANK);
 		actionRequest.setAttribute("userName", userName);
 	}
-	
-	
+
 }

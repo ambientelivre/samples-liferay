@@ -1,2 +1,39 @@
-.custom-liferaymvc {
+strong {
+  color: green;
+}
+
+input {
+  border: 1px solid green;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.clear {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+
+input {
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  border: none;
+  background-color: green;
+  color: white;
+}
+
+input[type="submit"]:hover , .clear:hover {
+  text-decoration: none;
+  background-color: seagreen;
+  color: white;
 }
