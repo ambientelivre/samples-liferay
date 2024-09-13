@@ -12,7 +12,7 @@
 		<form action="${addNameUrl}" method="post">
 			<input name="<portlet:namespace/>userName" type="text" placeholder="Adicione um nome" />
 			<br>
-			<div>
+			<div class=buttons>
 				<input type="submit" value="Adicionar Nome" />
 				<a href="${addNameUrl}" class="clear">Limpar campo</a>
 			</div>
