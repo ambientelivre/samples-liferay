@@ -1,0 +1,27 @@
+.customProfile_container {
+	display:flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 20px;
+	flex-wrap: wrap;
+	background: linear-gradient( 180deg, rgb(65, 184, 131) 0%, rgb(0, 212, 255) 100%);
+	padding: 10px 0px 10px 10px;
+}
+
+.customProfile_avatar {  
+ 	width: 80px;
+  	height: 80px;
+ 	border-radius: 50%;
+}
+
+.customProfile_div {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+.customProfile_nameProfile, .customProfile_datefull{
+	margin: 0;
+}

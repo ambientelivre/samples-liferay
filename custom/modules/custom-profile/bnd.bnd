@@ -1,0 +1,4 @@
+Bundle-Name: custom-profile
+Bundle-SymbolicName: br.com.ambientelivre.custom.profile
+Bundle-Version: 1.0.0
+Export-Package: br.com.ambientelivre.custom.profile.constants
