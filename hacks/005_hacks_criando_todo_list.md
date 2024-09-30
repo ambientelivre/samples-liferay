@@ -85,29 +85,34 @@ public void addTask(ActionRequest actionRequest, ActionResponse actionResponse) 
 ``` css
 .container-task{
 	padding: 1.25rem;
-	background: linear-gradient( 90deg, rgba(65, 184, 131, 1) 0%, rgba(0, 212, 255, 1) 	100%);
 }
-
 .new-task-container{
-	background-color: #fff;
 	padding: 1.25rem 0.625rem;
 	border-radius: 5px;
 	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 	width: 100%;
 	margin: 0 auto;
 }
-
+.new-task-container button,
+.buttons button {
+	background: #222;
+	color: #fff;
+	border: none;
+}
+.new-task-container button:hover,
+.buttons button:hover {
+	background: #444;
+	color: #fff;
+}
 .tasks-list {
-	background-color: #fff;
 	padding: 0.625rem;
 	margin: 1.25rem auto 0;
 	border-radius: 5px;
 	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 	width: 100%;
 }
-
 .task{
-	background-color: #41b883;
+	background-color: #B6124A;
 	color: #fff;
 	padding: 0.625rem;
 	border-radius: 5px;
@@ -118,7 +123,6 @@ public void addTask(ActionRequest actionRequest, ActionResponse actionResponse) 
 	justify-content: space-between;
 	align-items: center;
 }
-
 .buttons {
 	display: flex;
 	gap: 0.625rem;
