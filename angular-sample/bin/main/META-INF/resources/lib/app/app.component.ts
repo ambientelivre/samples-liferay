@@ -22,22 +22,22 @@ export class Hero {
 	styles: [`
     h1 {
       margin-top: 30px;
-      color: green;
+      color: #B6124A;
     }
     h2 {
       text-decoration: underline;
-      text-decoration-color: green;
+      text-decoration-color: #B6124A;
     }
     label {
     	font-size: 18px;
     }
     input {
       margin-top: 15px;
-      border: 1px solid green;
+      border: 1px solid #B6124A;
       border-radius: 5px;
     }
     input:focus {
-      border-color: green;
+      border-color: #B6124A;
     }
   `],
 })
