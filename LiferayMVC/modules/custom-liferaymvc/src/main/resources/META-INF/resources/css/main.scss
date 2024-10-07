@@ -1,9 +1,9 @@
 strong {
-  color: green;
+  color: #B6124A;
 }
 
 input {
-  border: 1px solid green;
+  border: 1px solid #B6124A;
 }
 
 .buttons {
@@ -16,7 +16,7 @@ input {
   display: inline-block;
   text-decoration: none;
   padding: 10px 15px;
-  background-color: green;
+  background-color: #222;
   color: white;
   border-radius: 5px;
 }
@@ -28,12 +28,12 @@ input {
 
 input[type="submit"] {
   border: none;
-  background-color: green;
+  background-color: #222;
   color: white;
 }
 
 input[type="submit"]:hover , .clear:hover {
   text-decoration: none;
-  background-color: seagreen;
+  background-color: #444;
   color: white;
 }
