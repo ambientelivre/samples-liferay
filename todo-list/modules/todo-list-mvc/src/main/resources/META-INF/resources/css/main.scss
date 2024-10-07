@@ -1,51 +1,43 @@
-.container-task {
-	padding: 1.25rem;
+.container-task{
+    padding: 1.25rem;
 }
-
-.new-task-container {
-	padding: 1.25rem 0.625rem;
-	border-radius: 5px;
-	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-	width: 100%;
-	margin: 0 auto;
+.new-task-container{
+    padding: 1.25rem 0.625rem;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    margin: 0 auto;
 }
-
-.new-task-container button,
-.buttons button {
-	background: #222;
-	color: #fff;
-	border: none;
+.new-task-container button, .buttons button {
+    background: #222;
+    color: #fff;
+    border: none;
 }
-
-.new-task-container button:hover,
-.buttons button:hover {
-	background: #444;
-	color: #fff;
+.new-task-container button:hover, .buttons button:hover {
+    background: #444;
+    color: #fff;
 }
-
 .tasks-list {
-	padding: 0.625rem;
-	margin: 1.25rem auto 0;
-	border-radius: 5px;
-	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-	width: 100%;
+    padding: 0.625rem;
+    margin: 1.25rem auto 0;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    width: 100%;
 }
-
-.task {
-	background-color: #B6124A;
-	color: #fff;
-	padding: 0.625rem;
-	border-radius: 5px;
-	margin-top: 5px;
-	list-style: none;
-	font-size: 1rem;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+.task{
+    background-color: #B6124A;
+    color: #fff;
+    padding: 0.625rem;
+    border-radius: 5px;
+    margin-top: 5px;
+    list-style: none;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
 .buttons {
-	display: flex;
-	gap: 0.625rem;
-	align-items: center;
+    display: flex;
+    gap: 0.625rem;
+    align-items: center;
 }

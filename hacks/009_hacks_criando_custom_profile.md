@@ -47,7 +47,7 @@
 	align-items: center;
 	gap: 20px;
 	flex-wrap: wrap;
-	background: linear-gradient( 180deg, rgb(65, 184, 131) 0%, rgb(0, 212, 255) 100%);
+	background: #B6124A;
 	padding: 10px 0px 10px 10px;
 }
 .customProfile_avatar {  
@@ -61,6 +61,7 @@
 	align-content: center;
 	justify-content: center;
 	gap: 10px;
+	color: #fff;
 }
 .customProfile_nameProfile, .customProfile_datefull{
 	margin: 0;
